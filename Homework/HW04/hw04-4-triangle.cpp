@@ -19,13 +19,13 @@ int main() {
     
     float H , W;
 
-    printf(" Enter H & W : "); 
+    printf( "Enter H & W : "); 
 
     scanf("%f %f", &H, &W) ;
 
     float ans =  H * W /2 ;
 
-    printf("Triangle Area: %.1f", ans) ;
+    printf( "Triagle Area : %.1f", ans) ;
 
     return 0;
 }
